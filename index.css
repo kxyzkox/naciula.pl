@@ -1,0 +1,59 @@
+body {  
+    font-family: Proxima Nova;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 0;
+    animation: blur 1s ease-out;
+    background-color: #867465;
+
+    }
+
+    span {
+      color: rgb(255, 255, 255);
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+    }
+
+    a {
+      font-family: Arial, sans-serif;
+      font-size: 32px;
+      color: #D8D2C2;
+    }
+
+    h1 {
+      font-family: Arial, sans-serif;
+      font-size: 40px;
+
+    }
+
+
+div#banner { 
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  background-image: url('assets/bannerbackgrounddark.png');
+  
+}
+div#banner-content { 
+  width: 100%; 
+  border: 0px solid;
+  margin: auto;
+  padding: 10px;
+  display:inline-block;
+  text-align: center;
+}
+
+
+
+.items{ 
+display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#item{
+box-shadow: 0 0 15px rgba(77, 77, 77, 0.9);
+}
+
+#limiteditem{
+ box-shadow: 0 0 55px rgba(152, 50, 255, 0.8);
+}
